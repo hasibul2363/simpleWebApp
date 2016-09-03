@@ -97,12 +97,13 @@
     <None Include="Properties\PublishProfiles\HDD.pubxml">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Web.Debug.config">
+    <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
-    </None>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
